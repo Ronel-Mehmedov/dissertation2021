@@ -1,0 +1,1641 @@
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" lang="en" style="height: 100%;"><head>
+    <base href="https://www.ipata.org/">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>Ground Transporters</title>
+    <meta name="description" content="Ground transport for shipping pets long distance.">
+    <meta name="keywords" content="How to ship a pet, find a pet shipper, pet shippers, shipping a puppy, pet delivery service, shipping puppies, shipping dogs, ship a pet, ship a dog, shipping a dog, companies that ship pets">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery.ui.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="css/jquery.uniform.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+    <link rel="stylesheet" href="css/jquery.chosen.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+    <link rel="stylesheet" href="css/main.css">
+    <script async="" src="https://pro.cookieassistant.com/widget.js?token=nET_RdCt_2JfjfL_6tRybQ"></script><script src="https://connect.facebook.net/en_GB/sdk.js?hash=1c4250bc0acad83760f65f096b721825&amp;ua=modern_es6" async="" crossorigin="anonymous"></script><script id="facebook-jssdk" src="//connect.facebook.net/en_GB/sdk.js#xfbml=1&amp;version=v2.8"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="scripts/modernizr.js"></script>
+    <script src="scripts/jquery.js"></script>
+   
+
+    <script type="text/javascript">
+        Rot13={map:null,convert:function(e){Rot13.init();var t="";for(i=0;i<e.length;i++){var n=e.charAt(i);t+=n>="A"&&n<="Z"||n>="a"&&n<="z"?Rot13.map[n]:n}return t},init:function(){if(Rot13.map!=null)return;var e=new Array;var t="abcdefghijklmnopqrstuvwxyz";for(i=0;i<t.length;i++)e[t.charAt(i)]=t.charAt((i+13)%26);for(i=0;i<t.length;i++)e[t.charAt(i).toUpperCase()]=t.charAt((i+13)%26).toUpperCase();Rot13.map=e},write:function(e){document.write(Rot13.convert(e))}};
+    </script>
+
+    <meta name="csrf-token" content="kjHREmHQusAXDMKh2g9CQkhCPNxFJfYQqjCb3U6F">
+    <meta name="app-token" content="eyJpdiI6IlZ3V0pIQU1DQmpWTFJ1UFFqXC9UbGlRPT0iLCJ2YWx1ZSI6InQ0VStQcUN1SGl5T0JtaE0zbThhODVpOXA4WTJQeHA1VDZKSGhiYml1cVJUXC9yTWNsVEo5ZFBxb2pcL1N2dkZOREZJeHdqSmV5RlpKTXBtUmEycWR0Q0N6Ymg3Z1FGaHNCeHZqcmg2ZVZkM01cLzVwbWNDdTJkdDBwdVZPZjlQT1lpbG5XcnY0V1BcL3NGOWg5Uk9HVDdDRUVrZW5Gb1gxVVdPR0FTeEJ2QXFMRllkeDQzSmNaZWpsaVV6ZVlob3YyclRPT2ZRcHpyYUdWZGpSdStmZm53U1BSZ0lFSUpTaXJCNXJcLzQwTGdRK05JUzdwVmVCQVRoN21zN0RHY2hkUzI1cVBya3VwMXVLQStJRGZZbU5Sa3JoZ0xIWmR1TTNDbkNyV2FtaTQ5QlJDY2N1cmczc2RUK25qaVhLQnlQK3JnQlZkNXcrSDdjVTA0b3dscWhBeXdaXC95amRubWVaNitZekhsUDJHQlhGZWxpeDlUM1NoeHJNT2VNNUhJUWlCNDBqY0xxQ09aN1E1NkdEMTBIVGdvclZ1eUNZSlJBV1NwTUdRcXZrUWcxbnAwOHpSdlRXeDRVMFpYcVlUMUpnM1Q1OENcL2UxMEJ4MGhhRXEzeFpRNVFmSTJBb0VjWHBnZlRhaUVlNlJNbkRqUmF5WExIUXduR1lcL1FGWjNCR3BBODlKSUc0ZkhVWnU5ZUJORndLNndQaTR5aWorV3NOMVYrYTFSNURKU3llZG9FYnlNR2pnWjIxZkpFYXI3TkdFXC9YUHFIQklmamY3ZU50cktYODYwMjA5VGg5bTg0UXJqcjB6a0FaWk95SUt1UDE0TFpLXC80MGhUR3g4OXR4TUtLV2g2blFsRFRsY2dcL1NqM2tQcnNWNXJSdW9PbTJTOTB3ZDh1cVd1Z0ZSR1FoWUpcL0VWRjRxTDBVbzMrYmN5aFhhaTM5OTloK1FcL0RrS1dBTzlzb3pDOCs0TkZPVG14NXBCQkpyM1ZpcHpOTFZ5VjhWNkwzUTdxQitzVmNOVDg0eSt0NytjN1ciLCJtYWMiOiI0ODA3OGZkMDU2ZWY0Mjg1ZDk2MzJkMjVlMDBjMjdlNjBjMDY4ZjQ4NTU0NjZiZTY3ZGM2MTkzZjA3YmEzYmI3In0=">
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('set', 'anonmizeIp', true);
+    ga('create', 'UA-15404303-2', 'auto');
+    ga('send', 'pageview');
+    
+    </script>
+
+
+<meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge-only"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large-only"><meta class="foundation-mq-large"><meta class="foundation-mq-medium-only"><meta class="foundation-mq-medium"><meta class="foundation-mq-small-only"><meta class="foundation-mq-small"><style></style><meta class="foundation-mq-topbar"><link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"><script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/translate_static/js/element/main.js"></script><script id="doorbellScript" type="text/javascript" async="" src="https://embed.doorbell.io/button/3144?t=1623076067189"></script><style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_customer_chat_bubble_animated_no_badge{box-shadow:0 3px 12px rgba(0, 0, 0, .15);transition:box-shadow 150ms linear}.fb_customer_chat_bubble_animated_no_badge:hover{box-shadow:0 5px 24px rgba(0, 0, 0, .3)}.fb_customer_chat_bubble_animated_with_badge{box-shadow:-5px 4px 14px rgba(0, 0, 0, .15);transition:box-shadow 150ms linear}.fb_customer_chat_bubble_animated_with_badge:hover{box-shadow:-5px 8px 24px rgba(0, 0, 0, .2)}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_new_ui_mobile_overlay_active{overflow:hidden}@keyframes fb_mpn_landing_page_slide_in{0%{border-radius:50%;margin:0 24px;width:60px}40%{border-radius:18px}100%{margin:0 12px;width:100% - 24px}}@keyframes fb_mpn_landing_page_slide_in_from_left{0%{border-radius:50%;left:12px;margin:0 24px;width:60px}40%{border-radius:18px}100%{left:12px;margin:0 12px;width:100% - 24px}}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes fb_bounce_out_v2_mobile_chat_started{0%{opacity:1;top:0}100%{opacity:0;top:20px}}@keyframes fb_customer_chat_bubble_bounce_in_animation{0%{bottom:6pt;opacity:0;transform:scale(0, 0);transform-origin:center}70%{bottom:18pt;opacity:1;transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style><script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/element/TE_20210503_00/e/js/element/element_main.js"></script><style type="text/css">.cookie-assistant-decline, .cookie-assistant-decline:hover{
+      color: #ffffff;
+      background-color: #6c757d;
+    }.cookie-assistant-accept, .cookie-assistant-accept:hover{
+      color: #ffffff;
+      background-color: #4188c9;
+    }.cookie-assistant-notification{background-color: #ffffff!important;}.cookie-assistant-wrapper{background-color: #ffffff!important;}.cookie-assistant-headline{color: #003648;}.cookie-assistant-details{color: #003648;}.cookie-assistant-policy{color: #003648;}</style><style type="text/css">.cookie-assistant-notification{position:relative;z-index:2147483647;font-family:Helvetica,sans-serif}.cookie-assistant-notification *,.cookie-assistant-notification :after,.cookie-assistant-notification :before{-webkit-box-sizing:border-box;box-sizing:border-box}.cookie-assistant--bar.cookie-assistant-top{top:0}.cookie-assistant--bar.cookie-assistant-bottom{bottom:0}.cookie-assistant-notification.cookie-assistant--bar{position:fixed;left:0;width:100%;-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.4);box-shadow:0 0 20px 0 rgba(0,0,0,.4);background-color:#fff}.cookie-assistant-notification.cookie-assistant--bar .cookie-assistant-wrapper{width:90%;max-width:1200px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:.6em auto;min-height:55px}.cookie-assistant-notification.cookie-assistant--bar .cookie-assistant-close{position:absolute;right:10px;cursor:pointer;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.cookie-assistant-notification.cookie-assistant--bar .cookie-assistant-headline{margin:0 15px 0 0;display:block;font-size:1.2em;font-weight:700}.cookie-assistant-notification.cookie-assistant--bar .cookie-assistant-details{display:block;font-size:.9em;line-height:18px;margin:0 10px}.cookie-assistant-notification.cookie-assistant--bar .cookie-assistant-actions{-ms-flex-align:center;-webkit-box-align:center;align-items:center;display:-ms-flexbox;display:-webkit-box;display:flex;-ms-flex-pack:justify;-webkit-box-pack:justify;justify-content:space-between}.cookie-assistant-notification.cookie-assistant--bar .cookie-assistant-policy{font-size:12px;font-weight:600;-webkit-text-decoration:underline;text-decoration:underline}.cookie-assistant-notification.cookie-assistant--bar .cookie-assistant-button{width:auto;border-radius:3px;outline:none;border:0;cursor:pointer;font-size:14px;padding:8px 14px;opacity:1;margin-right:5px}@media (max-width:480px){.cookie-assistant-notification.cookie-assistant--bar .cookie-assistant-headline,.cookie-assistant-notification.cookie-assistant--bar .cookie-assistant-wrapper{display:block}.cookie-assistant-notification.cookie-assistant--bar .cookie-assistant-details{margin:10px 0}.cookie-assistant-notification.cookie-assistant--bar .cookie-assistant-actions{display:block}}</style><script type="text/javascript" async="" src="https://embed.doorbell.io/button/3144/1623074973/init?native_json=1&amp;needs_postmessage=0"></script></head>
+
+<body style="position: relative; min-height: 100%; top: 0px;">
+    <!-- <div id="fb-root"></div> -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <div class="inner_page country_profile">
+        <div class="notifications" id="alert-message-placeholder">  </div>
+        <div class="top-section ">
+
+            <div class="row">
+
+                <div class="large-12  clearfix">
+
+                    <div class="medium-4 small-6 columns">
+
+                        <div class="main-logo">
+                            <a href="https://www.ipata.org"><img src="images/logo.png" alt="Logo" class="ipata-logo"></a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="medium-4 columns middle-img">
+
+                        <div class="middle-section">
+
+                                                            <img src="images/top-section-bg.png">
+                            
+                        <h1>IPATA Pet Shippers</h1></div>
+
+                    </div>
+
+                    <div class="medium-4 small-6 columns">
+
+                        <div class="right-section clearfix">
+
+                            <!--- Top Menu -->
+                            <ul>
+                                    <li>
+                                        <a class="button button-header" href="/ccount/click.php?id=Find_A_Pet_Shipper" target="_self"><strong>Find A Pet Shipper</strong></a>
+                                    </li>
+                            </ul>   
+                            <ul>
+                                                                                                        	<li>
+                                            <a href="https://www.ipata.org/login" target="_self" class="">Member Login</a>
+                                        </li>
+                                                                        	<li>
+                                            <a href="online-payments" target="_self" class="">To process on-line payments</a>
+                                        </li>
+                                                                    
+                            </ul>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="head-divider ">
+
+            <div class="row">
+
+                <div class="large-12 clearfix content">
+
+                    <div class="medium-7 columns">
+
+                        <p class="title">International Pet and Animal Transportation Association</p>
+
+                    </div>
+
+                    <div class="medium-5 columns">
+
+                        <div class="social">
+
+                        <!-- <span><img src="images/flag.jpg" alt="language Option"/></span>
+                        <a data-dropdown="drop" class="lang">En</a>
+                        <ul id="drop" class="[tiny small medium large content] f-dropdown" data-dropdown-content>
+                          <li><a href="#">Spanish</a></li>
+                          <li><a href="#">French</a></li>
+                        </ul> -->
+
+                            <ul style="float: right;">
+
+                                <li><a href="https://www.facebook.com/thepetshippingexperts/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/petshipexperts" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.youtube.com/user/IPATAPetShipExperts" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/9206047" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="javascript:void(0);" id="print-page"><i class="fa fa-print"></i></a></li>
+                            </ul>
+                            <div id="google_translate_element" class="" style="float: right;"><div class="skiptranslate goog-te-gadget" dir="ltr" style=""><div id=":0.targetLanguage" class="goog-te-gadget-simple" style="white-space: nowrap;"><img src="https://www.google.com/images/cleardot.gif" class="goog-te-gadget-icon" alt="" style="background-image: url(&quot;https://translate.googleapis.com/translate_static/img/te_ctrl3.gif&quot;); background-position: -65px 0px;"><span style="vertical-align: middle;"><a aria-haspopup="true" class="goog-te-menu-value" href="javascript:void(0)"><span>Select Language</span><img src="https://www.google.com/images/cleardot.gif" alt="" width="1" height="1"><span style="border-left: 1px solid rgb(187, 187, 187);">​</span><img src="https://www.google.com/images/cleardot.gif" alt="" width="1" height="1"><span aria-hidden="true" style="color: rgb(118, 118, 118);">▼</span></a></span></div></div></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="large-12 clearfix nav-outer">
+
+                    <nav class="top-bar" data-topbar="" role="navigation">
+
+                        <ul class="title-area">
+
+                            <li class="name"></li>
+
+                            <li class="toggle-topbar menu-icon"><a href="javascript:void(0);"><span>Menu</span></a></li>
+
+                        </ul>
+
+
+                        
+
+                        <form class="search" method="get" action="search">
+
+                            <input name="search" id="search-input" type="text" placeholder="Search"><i class="fa fa-search"></i>
+
+                        </form>
+
+                    <section class="top-bar-section " style="left: 0%;">
+
+                            <!--- Main Menu -->
+                            <ul class="left main_menu">
+                                                                
+                                    
+                                        
+                                <li class="has-dropdown menu-position not-click">
+                                        <a href="https://www.ipata.org/11-about-ipata" target="_self" class=" " id="11-about-ipata_menu">
+                                            About IPATA
+                                        </a>
+                                            <ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li><li class="parent-link hide-for-large-up"><a class="parent-link js-generated" href="https://www.ipata.org/11-about-ipata">
+                                            About IPATA
+                                        </a></li><li class=""><a href="https://www.ipata.org/ipata-awards" target="_self" class=" " id="ipata-awards_menu">
+                                                                    Awards
+                                                                </a></li><li class=""><a href="https://www.ipata.org/airline-awards" target="_self" class=" " id="airline-awards_menu">
+                                                                    Airline Awards
+                                                                </a></li><li class=""><a href="https://www.ipata.org/contact-us" target="_self" class=" " id="contact-us_menu">
+                                                                    Contact Us
+                                                                </a></li><li class=""><a href="https://www.ipata.org/media-center" target="_self" class=" " id="media-center_menu">
+                                                                    Media Center
+                                                                </a></li><li class=""><a href="https://www.ipata.org/ipata-officers-and-directors" target="_self" class=" " id="ipata-officers-and-directors_menu">
+                                                                    Officers and Directors
+                                                                </a></li></ul>
+                                    </li>
+                                
+                                    
+                                        
+                                <li class="menu-position">
+                                        <a href="https://www.ipata.org/faqs" target="_self" class=" " id="faqs_menu">
+                                            FAQs
+                                        </a>
+                                            
+                                    </li>
+                                
+                                    
+                                        
+                                <li class="has-dropdown menu-position not-click">
+                                        <a href="https://www.ipata.org/join-ipata" target="_self" class=" " id="join-ipata_menu">
+                                            Join IPATA
+                                        </a>
+                                            <ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li><li class="parent-link hide-for-large-up"><a class="parent-link js-generated" href="https://www.ipata.org/join-ipata">
+                                            Join IPATA
+                                        </a></li><li class=""><a href="https://www.ipata.org/active-members" target="_self" class=" " id="active-members_menu">
+                                                                    Active Members - Pet Shippers
+                                                                </a></li><li class="has-dropdown not-click"><a href="https://www.ipata.org/associate-members-airlines-govt-suppliers" target="_self" class=" " id="associate-members-airlines-govt-suppliers_menu">
+                                                                    Associate Members - Airlines, Govt, Suppliers
+                                                                </a><ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li><li class="parent-link hide-for-large-up"><a class="parent-link js-generated" href="https://www.ipata.org/associate-members-airlines-govt-suppliers">
+                                                                    Associate Members - Airlines, Govt, Suppliers
+                                                                </a></li><li class="">
+                                                                                <a href="https://www.ipata.org/airline-associate-membership" target="_self" class=" ">
+                                                                                    Airline Associate Membership
+                                                                                </a>
+                                                                            </li><li class="">
+                                                                                <a href="https://www.ipata.org/government-associate-membership" target="_self" class=" ">
+                                                                                    Government Associate Membership
+                                                                                </a>
+                                                                            </li><li class="">
+                                                                                <a href="https://www.ipata.org/industry-provider-associate-membership" target="_self" class=" ">
+                                                                                    Industry Provider Associate Membership
+                                                                                </a>
+                                                                            </li></ul></li></ul>
+                                    </li>
+                                
+                                    
+                                        
+                                <li class="menu-position">
+                                        <a href="https://www.ipata.org/pet-travel-experts-speak-up" target="_self" class=" " id="pet-travel-experts-speak-up_menu">
+                                            Pet Travel Experts
+                                        </a>
+                                            
+                                    </li>
+                                
+                                    
+                                        
+                                <li class="has-dropdown menu-position not-click">
+                                        <a href="https://www.ipata.org/pet-scams" target="_self" class=" " id="pet-scams_menu">
+                                            Pet Scams
+                                        </a>
+                                            <ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li><li class="parent-link hide-for-large-up"><a class="parent-link js-generated" href="https://www.ipata.org/pet-scams">
+                                            Pet Scams
+                                        </a></li><li class=""><a href="https://www.ipata.org/reported" target="_self" class=" " id="reported_menu">
+                                                                    Reported
+                                                                </a></li><li class=""><a href="https://www.ipata.org/tips-for-buyers" target="_self" class=" " id="tips-for-buyers_menu">
+                                                                    Tips for Buyers
+                                                                </a></li><li class=""><a href="https://www.ipata.org/current-pet-scams" target="_self" class=" " id="current-pet-scams_menu">
+                                                                    Current Pet Scams
+                                                                </a></li></ul>
+                                    </li>
+                                
+                                    
+                                        
+                                <li class="has-dropdown menu-position not-click">
+                                        <a href="https://www.ipata.org/find-ipata-pet-shippers" target="_self" class=" active" id="find-ipata-pet-shippers_menu">
+                                            IPATA Pet Shippers
+                                        </a>
+                                            <ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li><li class="parent-link hide-for-large-up"><a class="parent-link js-generated" href="https://www.ipata.org/find-ipata-pet-shippers">
+                                            IPATA Pet Shippers
+                                        </a></li><li class=""><a href="https://www.ipata.org/ipata-pet-shippers-air-and-ground" target="_self" class=" " id="ipata-pet-shippers-air-and-ground_menu">
+                                                                    IPATA Pet Shippers Air and Ground
+                                                                </a></li><li class=""><a href="https://www.ipata.org/ipata-pet-ground-transporters" target="_self" class=" active" id="ipata-pet-ground-transporters_menu">
+                                                                    IPATA Pet Ground Transporters
+                                                                </a></li></ul>
+                                    </li>
+                                
+                                    
+                                        
+                                <li class="has-dropdown menu-position not-click">
+                                        <a href="https://www.ipata.org/upcoming-meetings-for-pet-shippers" target="_self" class=" " id="upcoming-meetings-for-pet-shippers_menu">
+                                            Events
+                                        </a>
+                                            <ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li><li class="parent-link hide-for-large-up"><a class="parent-link js-generated" href="https://www.ipata.org/upcoming-meetings-for-pet-shippers">
+                                            Events
+                                        </a></li><li class=""><a href="https://www.ipata.org/webinars-2020" target="_self" class=" " id="webinars-2020_menu">
+                                                                    Webinars 2020
+                                                                </a></li><li class="has-dropdown not-click"><a href="https://www.ipata.org/upcoming-meetings-for-pet-shippers" target="_self" class=" " id="upcoming-meetings-for-pet-shippers_menu">
+                                                                    Past Conferences
+                                                                </a><ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li><li class="parent-link hide-for-large-up"><a class="parent-link js-generated" href="https://www.ipata.org/upcoming-meetings-for-pet-shippers">
+                                                                    Past Conferences
+                                                                </a></li><li class="">
+                                                                                <a href="https://www.ipata.org/fast-facts" target="_self" class=" ">
+                                                                                    IPATA 2020 Conference Frankfurt
+                                                                                </a>
+                                                                            </li><li class="">
+                                                                                <a href="https://www.ipata.org/ipata-2019-conference-chicago" target="_self" class=" ">
+                                                                                    IPATA 2019 Conference Chicago
+                                                                                </a>
+                                                                            </li><li class="">
+                                                                                <a href="https://www.ipata.org/recap-2018-ipata-conference" target="_self" class=" ">
+                                                                                     IPATA 2018 Conference Melbourne
+                                                                                </a>
+                                                                            </li></ul></li><li class=""><a href="https://www.ipata.org/event-photo-gallery" target="_self" class=" " id="event-photo-gallery_menu">
+                                                                    Event Photo Gallery
+                                                                </a></li></ul>
+                                    </li>
+                                
+                                    
+                                        
+                                <li class="has-dropdown menu-position not-click">
+                                        <a href="https://www.ipata.org/suppliers" target="_self" class=" " id="suppliers_menu">
+                                            Suppliers
+                                        </a>
+                                            <ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li><li class="parent-link hide-for-large-up"><a class="parent-link js-generated" href="https://www.ipata.org/suppliers">
+                                            Suppliers
+                                        </a></li><li class=""><a href="https://www.ipata.org/suppliers#airlines" target="_self" class=" " id="_menu">
+                                                                    Airlines
+                                                                </a></li><li class=""><a href="https://www.ipata.org/suppliers#airport_holding_facilities" target="_self" class=" " id="_menu">
+                                                                    Airport Holding Facilities
+                                                                </a></li><li class=""><a href="https://www.ipata.org/suppliers#animal_health" target="_self" class=" " id="_menu">
+                                                                    Animal Health
+                                                                </a></li><li class=""><a href="https://www.ipata.org/suppliers#forwarder_/_broker" target="_self" class=" " id="_menu">
+                                                                    Forwarder Broker
+                                                                </a></li><li class=""><a href="https://www.ipata.org/suppliers#industry_related_organizations" target="_self" class=" " id="_menu">
+                                                                    Organizations
+                                                                </a></li><li class=""><a href="https://www.ipata.org/suppliers#insurance" target="_self" class=" " id="_menu">
+                                                                    Pet Travel Insurance
+                                                                </a></li><li class=""><a href="https://www.ipata.org/suppliers#pet_supplies" target="_self" class=" " id="_menu">
+                                                                    Pet Moving Supplies
+                                                                </a></li></ul>
+                                    </li>
+                                
+                                    
+                                        
+                                <li class="menu-position">
+                                        <a href="https://www.ipata.org/media-center" target="_self" class=" " id="media-center_menu">
+                                            Media Center
+                                        </a>
+                                            
+                                    </li>
+                                
+                                    
+                                        
+                                <li class="menu-position">
+                                        <a href="https://www.ipata.org/login" target="_self" class=" " id="_menu">
+                                            Members Only
+                                        </a>
+                                            
+                                    </li>
+                                
+                            </ul>
+
+                        </section></nav>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        <div class="banner-outer inner_banner">
+
+			<img src="images/bg_innerpages.jpg" alt="Innerpages Background">
+
+		</div>
+
+		<div class="row">
+			
+			<div class="large-12 clearfix  inner_content">
+
+				<div class="medium-9 columns">
+
+					<div class="left-col">
+
+						<div class="heading clearfix">
+
+														
+                            
+						</div>
+
+						<div class="content">
+							
+							<h1 style="font-size:2em;">IPATA Pet Shippers: Ground Transporters</h1>
+
+<p><span style="font-size:16px;"><span style="color: rgb(0, 128, 0); font-family: helvetica;">IPATA pet shippers are dedicated to the safe and humane transport of your pet.</span></span> </p><form method="POST" action="https://www.ipata.org/ipata-pet-ground-transporters" accept-charset="UTF-8" id="search-petshipper"><input name="_token" type="hidden" value="kjHREmHQusAXDMKh2g9CQkhCPNxFJfYQqjCb3U6F">
+						<a id="search-box-trigger" href="javascript:void(0);" style="display: none; " class="button right hide">Show Search Panel</a>
+						<div class="clearfix"></div>
+						<div class="search-box search-box-show" id="transporter_form">
+							<div class="inner-box">
+								<h2>Search IPATA Pet Ground Transporters</h2>
+							</div>
+							<div class="select-box">
+							<!-- <div class="pet medium-3 left columns pad-0">
+                                	<i class="fa fa-search"></i>
+									<select class="chosen-select country-code left" id="country_id" name="country_id"><option value="" selected="selected">Countries Loading..</option></select>
+									<button type="submit" type="button" class="search-btn-pet search-button right">Search</button>
+								</div> -->
+								<div class="medium-3 columns">
+									<label class="select_dropdown">Country
+										<select class="chosen-select search-input" id="country_id" name="country_id" style="display: none;"><option value="" selected="selected">Countries Loading..</option></select><div class="chosen-container chosen-container-single" style="width: 190px;" title="" id="country_id_chosen"><a class="chosen-single"><span>Countries Loading..</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+									</label>
+								</div>
+								<div class="medium-3 columns">
+									<label class="select_dropdown">State/Province
+										<select class="chosen-select" id="state_id" name="state_id" style="display: none;"><option value="" selected="selected">Please Select a State</option></select><div class="chosen-container chosen-container-single" style="width: 190px;" title="" id="state_id_chosen"><a class="chosen-single"><span>Please Select a State</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
+									</label>
+								</div>
+								<div class="medium-4 columns search-field" style="border-bottom: 1px solid #c4daee;">
+                                	<!-- <i class="fa fa-search"></i> -->
+									<label class="select_dropdown">Company Name
+									<!-- <input id="airport_code" name="airport_code" type="text" class= port-code left" placeholder="3-letter Airport Code"> -->
+									<input id="company_name" type="text" class="search-input comp-name left" style="height: 28px;" placeholder="Enter company name">
+									</label>
+								</div>
+									<button type="submit" id="search-by-company" class="search-btn search-button right">Search</button>
+									<!-- <button id="search-by-company" type="submit" class="search-btn search-button right"><i></i> Search</button> -->
+
+								<!-- <div class="medium-4 columns">
+								<label class="select_dropdown">Company Name -->
+										<!-- <select class="chosen-select" id="state_id" name="state_id"><option value="" selected="selected">Please Select a State</option></select> -->
+									<!-- <input id="company_name" type="text" class= comp-name left" placeholder="Search by Company Name"> -->
+									<!-- </label> -->
+                                	<!-- <i class="fa fa-search"></i> -->
+									<!-- <button id="search-by-company" type="submit" class="search-btn right"><i></i> Search</button> -->
+								<!-- </div> -->
+								<!-- <div class="medium-4 columns">
+									<label class="select_dropdown">Region
+										<select class="chosen-select" id="region_id" name="region_id"><option value="" selected="selected">Please Select a Region</option></select>
+									</label>
+								</div> -->
+							</div>
+                            <!-- <div class="inner-box">
+                            	<div class="medium-7 columns pad-0">
+                                	<i class="fa fa-search"></i>
+									<input id="company_name" type="text" class= comp-name left" placeholder="Search by Company Name">
+									<button id="search-by-company" type="submit" class="search-btn right"><i></i> Search</button>
+								</div>
+                            </div> -->
+							<div class="opt-box">
+								<label class="chk-box">
+									<div class="checker" id="uniform-show_by_alphabet"><span><input id="show_by_alphabet" type="checkbox" name="checkbox" class="uniform"></span></div>DISPLAY ALL Ground Transporters, regardless of location
+								</label>
+							</div>
+						</div>
+						<div id="no-results" style="" class="search-box hide">
+                            <div class="opt-box">
+                            	There are no IPATA member pet shippers in this location, or by this company name. Please check another location or search by a different airport code. Many times a pet shipper in a nearby location will be able to help.
+                            </div>
+                        </div>
+
+						<div class="table" id="display-results-gt">
+							<div class="table-head mar-top-20" style="display:none">
+								<h3 class="head-blue">ONLY PROVIDES GROUND TRANSPORTATION SERVICES</h3>
+								<ul>
+									<li class="small-5" style="width: 41.66667%;padding-left: 9px;">Company Name</li>
+									<li class="small-7" style="width: 58.33333%;padding-left: 9px;">Location</li>
+								</ul>
+							</div>
+							<ul class="t-body">
+
+							</ul>
+						</div>
+
+						<div class="table" id="display-results">
+							<div class="table-head mar-top-20" style="display:none">
+								<h3 class="head-blue">PROVIDES GROUND AND AIR TRANSPORTATION SERVICES</h3>
+								<ul>
+									<li class="small-5" style="width: 41.66667%;padding-left: 9px;">Company Name</li>
+									<li class="small-7" style="width: 58.33333%;padding-left: 9px;">Location</li>
+								</ul>
+							</div>
+							<ul class="t-body">
+
+							</ul>
+
+						</div>
+						<ul class="t-footer">
+							<li class="no-right-left-pad" style="display:none" id="load-more">
+								<div class="loader-box">
+									<span class="load-more blue">Load More...</span>
+								</div>
+							</li>
+							<li class="no-right-left-pad" style="display:none" id="loader">
+								<div class="loader-box">
+									<span class="load-more blue"><i class="fa fa-circle-o-notch fa-spin"></i></span>
+								</div>
+							</li>
+						</ul>
+						<input type="hidden" id="alphabet" name="alphabet">
+						<input type="hidden" id="search_type" name="search_type" value="1">
+						<input type="hidden" id="page" name="page" value="0">
+					</form>
+
+				<!-- JS Section -->
+					<script type="text/javascript" src="https://www.ipata.org/scripts/handlebars.js"></script>
+    				<script type="text/javascript" src="https://www.ipata.org/scripts/handlebar.extension.js"></script>
+					<script id="members-list-template" type="text/x-handlebars-template">
+				        {{#members}}
+				            <li class="even liste">
+								<div class="active-head">
+									<div class="small-5 columns">{{{display_text}}}<span>{{{is_provisional_member}}}</span></div>
+									<div class="small-7 columns">
+										{{#isSet city}}{{{city}}}, {{/isSet}}
+                                        {{#isSet state}}{{state}}{{/isSet}}
+										{{#if abbreviation}}
+											({{abbreviation}}), 
+										{{else}}
+											{{#if city}}
+											{{#if state}}
+											,
+											{{/if}} 
+											{{/if}}
+										{{/if}}
+										{{#isSet country}}{{country}}{{/isSet}} 
+										<a class="btn-view right btn-close" href="javascript:void(0);">view</a>
+									</div>
+								</div>
+								<div class="slide-box">
+									<div class="medium-5 columns">
+										{{#isSet office_phone_number}}
+											<p><b>Off Phone:</b> {{office_phone_number}}</p>
+										{{/isSet}}
+
+	                                    {{#isSet fax_number}}
+	                                    	<p><b>Fax:</b> {{fax_number}}</p>
+	                                    {{/isSet}}
+
+	                                    {{#isSet after_hours_phone_number}}
+	                                    	<p><b>After Hours:</b> {{after_hours_phone_number}}</p>
+	                                    {{/isSet}}
+
+	                                    {{#isSet toll_free_phone_number}}
+	                                    	<p><b>Toll Free:</b> {{toll_free_phone_number}}</p>
+	                                    {{/isSet}}
+
+	                                    {{#other_phone_numbers}}
+	                                        <p><b>{{title}}:</b> {{phone_number}} </p>
+	                                    {{/other_phone_numbers}}
+
+	                                    {{#isSet company_email}}
+	                                    	<p>{{{company_email}}} </p>
+	                                    {{/isSet}}
+
+	                                    {{#isSet company_website}}
+	                                    	<p>{{{company_website}}} </p>
+	                                    {{/isSet}}
+
+	                                    {{#isSet logo_image}}
+	                                    	<p><br> <img alt="{{logo_alt_text}}" src="{{logo_image}}"> </p>
+	                                    {{/isSet}}
+
+									</div>
+									<div class="medium-7 columns">
+										
+		                                {{#isSet ground_transporter_service_areas}}
+		                                	<p><b>Ground Transport Service Areas:</b> {{{ground_transporter_service_areas}}}</p>
+		                                {{/isSet}}
+
+		                                {{#isSet inhouse_service_html}}
+		                                	<p><b>Services Provided In-House :</b> {{{inhouse_service_html}}}</p>
+		                                {{/isSet}}
+
+		                                {{#isSet canarrange_service_html}}
+		                                	<p><b>Services that can be Arranged :</b> {{{canarrange_service_html}}}</p>
+		                                {{/isSet}}
+
+		                                {{#isSet species_shipped_html}}
+		                                	<p><b>Types of Animals Shipped :</b> {{{species_shipped_html}}}</p>
+		                                {{/isSet}}
+
+		                                {{#isSet special_services}}
+		                                	<p><b>Special Services Provided:</b> {{{special_services}}}</p>
+		                                {{/isSet}}
+
+		                                {{#isSet company_background_description}}
+		                                	<p><b>Company Background Description :</b> {{{company_background_description}}}</p>
+		                                {{/isSet}}
+
+		                                {{#isSet mission_statement}}
+		                                	<p><b>Mission Statement :</b> {{{mission_statement}}}</p>
+		                                {{/isSet}}
+
+		                                {{#ifCond lar_course_certified '==' 'Y'}}
+		                                    <label class="list_lar_data"><input type="checkbox" name="checkbox" class="uniform" checked="checked" disabled /> <strong>Live Animals Regulations (LAR) Course</strong> Certificate of Completion held by at least one employee</label><br>
+		                                {{/ifCond}}
+
+		                                {{#ifCond ipata_proficiency_course_certified '==' 'Y'}}
+		                                    <label class="list_lar_data"><input type="checkbox" name="checkbox" class="uniform" checked="checked" disabled /> <strong>IPATA Proficiency Course</strong> Certificate of Completion held by at least one employee</label><br>
+		                                {{/ifCond}}
+
+										<div class="inner-footer">
+											<a class="print" href="{{download_print_url}}" target="_blank">
+												<i class="fa fa-print"></i>Print info for this company
+											</a>
+										</div>
+									</div>
+								</div>
+							</li>
+				        {{/members}}
+				    </script>
+				    				    <script type="text/javascript">
+				        var ipata_object = ipata_object || {};
+				        $.extend(true, ipata_object, {"api_base_url":"https:\/\/apiv3.ipata.org\/","list_page_count":"50","pages_url":"https:\/\/www.ipata.org\/ipata-pet-ground-transporters","download_pdf_url":"https:\/\/www.ipata.org\/member\/%7Bmember_id%7D","csrf_token":"kjHREmHQusAXDMKh2g9CQkhCPNxFJfYQqjCb3U6F"});
+				    </script>
+				    <script type="text/javascript" src="https://www.ipata.org/scripts/ground_supporters_listing.js"></script>
+				<!-- /JS Section --><p></p>
+
+<p>(If you experience any problems with this search, please try a different browser such as Firefox)</p>
+
+<p> </p>
+
+<h3><img alt="Moving with your dog" src="https://ipata.org/useruploads/images/images_-_clip_art/Moving_with_your_dog.png" style="width: 100px; height: 100px; float: left;">Search above for a professional pet shipper who is a member of IPATA (International Pet and Animal Transportation Association) to ensure the safe and humane transport of your pets.</h3>
+
+<h2><span style="font-size:14px;"><a href="11-about-ipata" target="_self" title="About IPATA"><span style="line-height: 18px;">Learn more about IPATA</span></a></span></h2>
+
+<p><span style="font-size:18px;"><span style="color: #008000;">How do I find a Ground Transporter for my shipment?</span></span><br>
+<span style="font-size:14px;">Use the checkbox to bring up ALL members who provide Ground Transportation (no matter what their location). Use the <strong>ADVANCED SEARCH</strong> feature below, to search in the country of origin OR the country of destination to find a pet shipper.</span></p>
+
+<div>
+<div><span style="font-size:18px;"><span style="color: #008000;">What if there is no agent listed or the ones listed don't help or provide the services I need?</span></span></div>
+
+<div>
+<p><span style="font-size:14px;">If there isn't an agent listed or the one listed cannot help or doesn't provide the services you need, then you may wish to look for <a href="ipata-pet-shippers-air-and-ground" target="_self">"pet shippers that can provide both air and ground transportation services"</a></span></p>
+</div>
+</div>
+
+
+						</div>
+
+					</div>
+
+				</div>
+
+								<div class="medium-3 columns">
+					<div id="sidebar" class="rightcol">
+					<center>
+						<p style="text-align: center;"></p><p style="text-align: center;"><u><strong><img alt="" src="https://www.ipata.org/useruploads/files/ipata_-_conference/2020_Webinar/Webinar_Logo_2020_with_Dates_200pxtall.png" style="width: 90%;"><br>
+THANK YOU SPONSORS</strong></u></p>
+<p></p>
+
+<p style="text-align: center;"><script type="text/javascript" src="scripts/jquery.simplyscroll.min.js"></script> 
+<script>
+		function setslider()
+		{
+			 windowWeight = $(window).innerWidth();
+		              /*if(windowWeight >=980 && $(".rightcol").height() > $(".left-col").height())
+		    		  { 
+		    		    scrollHeight = $(".rightcol").height() - $(".simply-scroll-clip").height(); 
+		    		  	$(".simply-scroll-clip").height($(".left-col").height() - scrollHeight  + "px"); 
+		    		  }
+		    		  else
+		    		  { 
+		    		  	$(".simply-scroll-clip").height(500+"px"); 
+		    		  }*/
+		    		  
+		    		  $(".simply-scroll-clip").height(500+"px"); 
+		}
+        $(window).load(function() {
+           
+              
+          $(".conferenceSlider").simplyScroll({
+            orientation: 'vertical',
+            customClass: 'vert',
+            frameRate: 20,
+            speed: 3,
+            auto: true,
+            autoMode: 'loop'
+          });
+        setslider();
+        });
+        $( window ).resize(function() {
+        	//setslider(); 
+        });
+        </script> 
+<style>
+.conferenceSlider li{
+	list-style:none;
+
+}
+.simply-scroll-container { 
+	position: relative;
+}
+
+.simply-scroll-clip { 
+	position: relative;
+	overflow: hidden;
+}
+
+.simply-scroll-list { 
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li img {
+	border: none;
+	display: block;
+}
+
+.vert { 
+	//width: 100%; 
+	
+	
+}
+
+.vert li{ 
+	width:220px;
+
+   margin-bottom:15px;
+}
+
+.vert .simply-scroll-clip {
+	width: 100%;
+	//height: 470px;
+}
+
+
+</style>
+
+<!--<ul class="conferenceSlider">
+		
+    	<li><a href="http://www.petflyers.com.au"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ca5ugrjc1d3m1jta78a1ds9188v.png" /></a></li>
+        
+		
+    	<li><a href="http://www.unitedcargo.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ca3o0o5g1qb85ag16rt12is1or2v.png" /></a></li>
+        
+		
+    	<li><a href="http://www.airpetsamerica.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ca3pq9hr4q07561jufrhu2e2v.png" /></a></li>
+        
+		
+    	<li><a href="http://www.airanimal.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ca3o2m5oekitas1auo3d6rdvv.png" /></a></li>
+        
+		
+    	<li><a href="#"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1bcg49mpljfqj89c8gphv1jgb14.png" /></a></li>
+        
+		
+    	<li><a href="http://www.dogtainers.com.au"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ca3q2m1917bs8g11b21tgs12lhv.png" /></a></li>
+        
+		
+    	<li><a href="http://www.jetpets.com.au"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ca3q0f9m10lj1c8icv4o17nqvv.png" /></a></li>
+        
+		
+    	<li><a href="http://www.worldcarepet.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1bkfegv3l1r6ie901t9j1an5lvuv.jpg" /></a></li>
+        
+		
+    	<li><a href="http://pamperedpettaxi.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1bmmun7cm1r78ofnvm1bhn25rv.png" /></a></li>
+        
+		
+    	<li><a href="http://www.rictedkennels.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ca3nv7meurf1grb1mft1sqpf4uv.png" /></a></li>
+        
+		
+    	<li><a href="http://www.theluxepet.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ca3q4r91s88osfjub7rst5v.png" /></a></li>
+        
+		
+    	<li><a href="http://www.petrelocationsg.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ca3o8jm735d1tgv4t11jhu1cqv.png" /></a></li>
+        
+		
+    	<li><a href="http://www.armstrongpet.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1aop98nmgi4q6921l9puv412j4v.jpg" /></a></li>
+        
+		
+    	<li><a href="http://www.petex.com.au"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ca3o4ek71sb11mmg45k140ri5bv.png" /></a></li>
+        
+	  
+</ul>-->
+
+</p><div class="vert simply-scroll-container"><div class="simply-scroll-clip" style="height: 500px;"><ul class="conferenceSlider simply-scroll-list" style="height: 3458px;">
+		
+    	<li><a href="https://www.aviomar.com.co"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ejja1c7d2b4slvtkb1dcbu2lv.png"></a></li>
+        
+		
+    	<li><a href="https://www.coppersmith.com "><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1el8mnvuc2rimfd1u8g10vn1ceo11.png"></a></li>
+        
+		
+    	<li><a href="http://www.pawsomepets.ae"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ellhs8ps1u8316rqq2ukfbjsev.png"></a></li>
+        
+		
+    	<li><a href="https://www.animaltravelagent.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1elr10d3g1frq6o51cstap9pt7v.png"></a></li>
+        
+		
+    	<li><a href="http://www.ferndalekennels.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ejjabqul1gt134q4v1dpmjn5v.png"></a></li>
+        
+		
+    	<li><a href="http://www.airanimal.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1em512f3i7tq1bkmftt1dnh6d6v.png"></a></li>
+        
+		
+    	<li><a href="www.helenspettransport.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ekvdrpkbhn11jdm3lsctserlv.png"></a></li>
+        
+		
+    	<li><a href="https://tailwingspettravel.com/"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ejj23l8h1np41rc61hg015sc1q7ev.png"></a></li>
+        
+		
+    	<li><a href="https://www.getdesignthinking.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1el8mhg161kom1nvs5e3n8u77v.png"></a></li>
+        
+		
+    	<li><a href="http://www.doggonetaxi.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ejj190nh1ljr1buj1h641j0v1h40v.png"></a></li>
+        
+		
+    	<li><a href="http://www.petrelocationgermany.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ejj9r123u01h78h571nif1lq7v.png"></a></li>
+        
+		
+    	<li><a href="http://pets.a4tmovingrd.com/"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ejjbqffqd0h1ieh1ema1otr1858v.png"></a></li>
+        
+		
+    	<li><a href="http://www.armstrongpet.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1el8msbbg1b68bpa1elt1mm9redv.png"></a></li>
+        
+	  
+<li><a href="https://www.aviomar.com.co"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ejja1c7d2b4slvtkb1dcbu2lv.png"></a></li><li><a href="https://www.coppersmith.com "><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1el8mnvuc2rimfd1u8g10vn1ceo11.png"></a></li><li><a href="http://www.pawsomepets.ae"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ellhs8ps1u8316rqq2ukfbjsev.png"></a></li><li><a href="https://www.animaltravelagent.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1elr10d3g1frq6o51cstap9pt7v.png"></a></li><li><a href="http://www.ferndalekennels.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ejjabqul1gt134q4v1dpmjn5v.png"></a></li><li><a href="http://www.airanimal.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1em512f3i7tq1bkmftt1dnh6d6v.png"></a></li><li><a href="www.helenspettransport.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ekvdrpkbhn11jdm3lsctserlv.png"></a></li><li><a href="https://tailwingspettravel.com/"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ejj23l8h1np41rc61hg015sc1q7ev.png"></a></li><li><a href="https://www.getdesignthinking.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1el8mhg161kom1nvs5e3n8u77v.png"></a></li><li><a href="http://www.doggonetaxi.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ejj190nh1ljr1buj1h641j0v1h40v.png"></a></li><li><a href="http://www.petrelocationgermany.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ejj9r123u01h78h571nif1lq7v.png"></a></li><li><a href="http://pets.a4tmovingrd.com/"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1ejjbqffqd0h1ieh1ema1otr1858v.png"></a></li><li><a href="http://www.armstrongpet.com"><img src="https://s3.amazonaws.com/files.ipata.org/v3/logos/o_1el8msbbg1b68bpa1elt1mm9redv.png"></a></li></ul></div></div><p></p>
+
+					</center>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+		
+        <div class="row">
+
+            <div class="large-12 clearfix bottom-section">
+
+                <img src="images/footer-bg.png" title="Footer" alt="Footer">
+
+            </div>
+
+        </div>
+
+        <footer>
+
+            <div class="row">
+
+                <div class="large-12 clearfix footer-bg">
+
+                    <div class="medium-6 columns">
+
+                        <div class="site-map large-12 clearfix">
+
+                            <!--- Footer Menu -->
+                            <div class="medium-4 columns">
+                                    <ul>
+                                    
+                                        <li><a href="http://ipata.org/" target="_self" class="">Home</a></li>
+                                 
+                                                                 
+                                        <li><a href="find-ipata-pet-shippers" target="_self" class="">Find IPATA Pet Shippers</a></li>
+                                 
+                                                                 
+                                        <li><a href="pet-travel-experts-speak-up" target="_self" class="">Pet Travel Experts Speak Up</a></li>
+                                 
+                                                                 
+                                        <li><a href="join-ipata" target="_self" class="">Join IPATA</a></li>
+                                    
+                                    </ul>
+                                </div>
+                                 
+                                                                                             <div class="medium-4 columns">
+                                    <ul>
+                                    
+                                        <li><a href="faqs" target="_self" class="">FAQs</a></li>
+                                 
+                                                                 
+                                        <li><a href="suppliers" target="_self" class="">Suppliers</a></li>
+                                 
+                                                                 
+                                        <li><a href="media-center" target="_self" class="">Media Center</a></li>
+                                 
+                                                                 
+                                        <li><a href="pet-scams#reportScam" target="_self" class="">Where to Report Scams</a></li>
+                                    
+                                    </ul>
+                                </div>
+                                 
+                                                                                             <div class="medium-4 columns">
+                                    <ul>
+                                    
+                                        <li><a href="upcoming-meetings-for-pet-shippers" target="_self" class="">Events</a></li>
+                                 
+                                                                 
+                                        <li><a href="ipata-2019-conference-chicago" target="_self" class="">IPATA 2019 Conference Chicago</a></li>
+                                 
+                                                                 
+                                        <li><a href="privacy-policy" target="_self" class="">Privacy Policy</a></li>
+                                 
+                                                                 
+                                        <li><a href="about-ipata" target="_self" class="">About IPATA</a></li>
+                                    
+                                    </ul>
+                                </div>
+                                 
+                                                                                             <div class="medium-4 columns">
+                                    <ul>
+                                    
+                                        <li><a href="https://www.ipata.org/login" target="_self" class="">Member Login</a></li>
+                                 
+                                                                 
+                                        <li><a href="#" target="_self" class="">&nbsp;</a></li>
+                                 
+                             </ul></div>
+                            
+                        </div>
+
+                        <div class="disclaimer">
+
+                                                            <p>IPATA does not ship animals and we do not get involved with sales of any kind. If you have been contacted by a company claiming to be IPATA please visit our <a href="https://www.ipata.org/pet-scams" target="_self" title="Pet Scams">pet scams page</a> for reporting.</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center;">-------------------------------------------------------------------</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p>Disclaimer: Each member company is individually owned and operated; therefore, the services they provide will vary from member to member. As privately owned companies, each sets their own policies, procedures and fee schedules. The level of pet shipping experience varies from member to member and each is individually responsible for the services they provide. IPATA is neither liable nor responsible for the performance or accuracy of information supplied by its members. IPATA cannot provide pet transportation advice concerning your pet's transport and/or relocation needs. You need to consult with an IPATA member by searching the IPATA member's directory at <a class="link" href="find-ipata-pet-shippers" target="_self">Find Pet Shippers</a>.</p>
+
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="medium-6 columns">
+
+                        <div class="right-section min-height-230">
+
+                            <div class="social">
+                                <ul>
+                                                                                                                        <li>
+                                                <p><a class="fb" href="https://www.facebook.com/thepetshippingexperts/?fref=ts"><i class="fa fa-facebook">&nbsp;</i></a></p>
+
+                                            </li>
+                                                                                    <li>
+                                                <p><a class="twitter" href="https://twitter.com/petshipexperts"><i class="fa fa-twitter">&nbsp;</i></a></p>
+
+                                            </li>
+                                                                                    <li>
+                                                <p><a class="youtube" href="https://www.youtube.com/user/IPATAPetShipExperts"><i class="fa fa-youtube-play">&nbsp;</i></a></p>
+
+                                            </li>
+                                                                                    <li>
+                                                <p><a class="linkedin" href="https://www.linkedin.com/company/9206047"><i class="fa fa-linkedin">&nbsp;</i></a></p>
+
+                                            </li>
+                                                                                                            </ul>
+                                <!-- <p class="join"><a href="javascript:void(0);">Join us on Facebook</a></p> -->
+                                <!-- <p class="follow">Follow IPATA <a href="javascript:void(0);">@petshiexperts</a></p> -->
+                            </div>
+                            <div class="address">
+                                                                            <p>1029 N. Beaulah Street, Hawkins, TX&nbsp; 75765 USA<br>
+Tel: +1 (903) 769-2267<br>
+Fax: +1 (903) 705 - 6922&nbsp;<br>
+<script type="text/javascript">Rot13.write('<n uers="znvygb:jroznfgre@vcngn.bet?fhowrpg=Jrofvgr">jroznfgre@vcngn.bet</n>');</script><a href="mailto:webmaster@ipata.org?subject=Website">webmaster@ipata.org</a><noscript><span style="unicode-bidi:bidi-override;direction:rtl;">gro.atapi@retsambew</span></noscript></p>
+
+                                                                        <!-- <p>2129 S. FM 2869, Suite 4, Hawkins, TX 75765 USA<br>Tel: +1 (903) 769-2267<br>Fax: +1 (903) 769-2867<br><a href="javascript:void(0);">webmaster@ipata.org</a></p> -->
+                            </div>
+
+                            <div class="copytext">
+                                                                    <p>© 2018 International Pet and Animal Transportation Association</p>
+
+                                                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+    
+    </div>
+ 
+    <script src="scripts/foundation.js"></script>
+    <script src="scripts/jquery.ui.js"></script>
+    <script src="scripts/jquery.uniform.js"></script>
+    <script src="scripts/owl.carousel.min.js"></script>
+    <script defer="" src="scripts/jquery.flexslider.js"></script>
+    <script src="scripts/jquery.chosen.js"></script>
+    <script src="scripts/select2.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/functions.js"></script>
+    <script src="scripts/jquery.misc.js"></script>
+    <script src="scripts/jquery.canvasloader.js"></script>
+   <script>
+       
+           
+       
+        
+</script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+    <script>
+        function tooltip_build()
+        {
+            var targets = $( '[rel~=tooltip]' ),
+                target  = false,
+                tooltip = false,
+                title   = false;
+         
+            targets.bind( 'mouseenter', function()
+            {
+                target  = $( this );
+                tip     = target.attr( 'title' );
+                tooltip = $( '<div id="tooltip"></div>' );
+         
+                if( !tip || tip == '' )
+                    return false;
+         
+                target.removeAttr( 'title' );
+                tooltip.css( 'opacity', 0 )
+                       .html( tip )
+                       .appendTo( 'body' );
+         
+                var init_tooltip = function()
+                {
+                    if( $( window ).width() < tooltip.outerWidth() * 1.5 )
+                        tooltip.css( 'max-width', $( window ).width() / 2 );
+                    else
+                        tooltip.css( 'max-width', 340 );
+         
+                    var pos_left = target.offset().left + ( target.outerWidth() / 2 ) - ( tooltip.outerWidth() / 2 ),
+                        pos_top  = target.offset().top - tooltip.outerHeight() - 20;
+         
+                    if( pos_left < 0 )
+                    {
+                        pos_left = target.offset().left + target.outerWidth() / 2 - 20;
+                        tooltip.addClass( 'left' );
+                    }
+                    else
+                        tooltip.removeClass( 'left' );
+         
+                    if( pos_left + tooltip.outerWidth() > $( window ).width() )
+                    {
+                        pos_left = target.offset().left - tooltip.outerWidth() + target.outerWidth() / 2 + 20;
+                        tooltip.addClass( 'right' );
+                    }
+                    else
+                        tooltip.removeClass( 'right' );
+         
+                    if( pos_top < 0 )
+                    {
+                        var pos_top  = target.offset().top + target.outerHeight();
+                        tooltip.addClass( 'top' );
+                    }
+                    else
+                        tooltip.removeClass( 'top' );
+         
+                    tooltip.css( { left: pos_left, top: pos_top } )
+                           .animate( { top: '+=10', opacity: 1 }, 50 );
+                };
+         
+                init_tooltip();
+                $( window ).resize( init_tooltip );
+         
+                var remove_tooltip = function()
+                {
+                    tooltip.animate( { top: '-=10', opacity: 0 }, 50, function()
+                    {
+                        $( this ).remove();
+                    });
+         
+                    target.attr( 'title', tip );
+                };
+         
+                target.bind( 'mouseleave', remove_tooltip );
+                tooltip.bind( 'click', remove_tooltip );
+            });
+        }
+
+        $("#show-more").on('click', function(){
+            $("#scroll-section").toggle("slow");
+            $(".next").toggle("slow");
+            $('#show-more').html($('#show-more').text() == 'show all' ? 'show less' : 'show all');
+        });
+        $(document).on("keyup keydown", function(e){
+            if(e.ctrlKey && e.keyCode == 80){
+                e.preventDefault();
+                // w = window.open();
+                // w.document.write($('.left-col').html());
+                // w.document.write($('.news-section').html());
+                // w.document.write($('.members-section').html());
+                // w.print();
+                // // w.close();
+
+                window.print();
+            }
+            return;
+        });
+        $("#print-page").on('click', function(){
+            // w = window.open();
+            // // w.document.write($('.left-col').html());
+            // // w.document.write($('.news-section').html());
+            // // w.document.write($('.members-section').html());
+            // w.print();
+            // // w.close();
+            window.print();
+        });
+        if($( window ).width() <= 720){
+            $('.coin2').each(function () {
+             $(this).insertBefore($(this).prev('.coin1'));
+            });
+        }else{
+            $('.coin1').each(function () {
+             $(this).insertBefore($(this).prev('.coin2'));
+            });
+        }
+        $(document).load(function(){
+            swapSocialCoins();
+        });
+
+        $(document).ready(function(){
+            $(window).resize(function() {
+                if($( window ).width() <= 720){
+                    $('.coin2').each(function () {
+                     $(this).insertBefore($(this).prev('.coin1'));
+                    });
+                }else{
+                    $('.coin1').each(function () {
+                     $(this).insertBefore($(this).prev('.coin2'));
+                    });
+                }
+            });
+            $base_url = "https://apiv3.ipata.org/";
+            $csrf_token = $('meta[name="csrf-token"]').attr('content');
+            $app_token = $('meta[name="app-token"]').attr('content');
+            var app_token = $('meta[name="app-token"]').attr('content');
+            $list_page_count = 50;
+            $membership_category_id ="";
+            var membership_category_id = $membership_category_id;
+            var authorized_pages_for_airline_access = ["country-profiles", "az-directory-link-for-country-profiles", "membership-directories", "members-directory", "country-profiles-volunteer", "country-update-contest", "history-of-updates", "reviewer-area", "country-reviewers","searchable-directory","show-profile"];
+            var restricted_pages = ["members-info", "conferences", "news-press-releases", "publications", "group-emails", "branch-office-requirements", "mentoring-program", "reference-library", "species-tips", "country-profiles", "my-account", "mea-region", "online-payments", "reviewer-area", "az-directory-link-for-country-profiles", "air-transport", "branch-office-application", "directory-update", "mbrshp-directory-dictionary", "2009-ireland-conference", "european-region", "resources", "2008-nyc-conference", "copy-mos-faqs-test-page", "archived-executive-pr-reports", "membership-directories", "test-pages", "deals-discounts-for-members", "2010-montreal-conference", "ireland-conf-photo-gallery", "conference-countdown-script-copy", "asia-region", "conf-countdown-script-use-copy-do-not-use-thi", "originals-do-not-use", "backup-of-mos-home-page-code", "brochure", "member-tools", "mos-home-test-page-do-not-remove", "old-conference", "did-you-know", "member-information", "renewals-membership", "orders", "password-protected-page-test", "conf-countdown-script", "countdown-to-yul", "media-center-test-page", "ipata-staff-contact-us", "bod-side-bar-do-not-remove", "new-layout-training", "montreal-conference-photos-outside-activities", "forms", "training", "mos-reference-library-do-not-remove", "lam-region", "copy-of-mos-reference-library-do-not-remove", "components-of-a-pet-move", "customer-service", "advanced-kennels", "quoting-with-excel", "regions", "ipata-conferences", "media-tools", "kennels-introduction-to-transport-kennels", "country-reviewers", "committee-board-notices", "awards-committee", "ethics-committee", "pr-committee", "membership-committee", "eu-regional", "ipata-board-of-directors", "membership-levels", "2011-hong-kong-conference", "hkg-meetings-photos", "faq-for-members", "logos-for-members", "do-not-remove-lorem-ipsum", "find-a-with-accordian-list-2", "2011-award-recipients", "north-america-regional-activities", "copy-bod-january-2014", "oceania-region", "2012-madrid-conference", "2012-award-recipients", "site-index", "copy-of-find-a-with-accordian-list", "http://ipata.org/forums/", "test-2", "2013-las-vegas-conference", "test-3", "panama-awards", "panama-conference", "panama-exhibits-advertising", "panama-gala-event", "panama-hotel", "panama-invitation", "panama-things-to-do-see", "panama-recognition-of-sponsorship", "panama-silent-auction", "panama-sponsorships", "panama-visa-letter", "panama-conference-registration", "panama-face2face", "panama-travel-and-hotel-plans", "panama-coming-soon", "searchable-directory", "2014-panama-conference", "2013-award-recipients", "2014-award-recipients", "feb2015", "rome-attendees", "rome-visa-letter", "rome-delta-discount", "country-update-contest", "group-topics", "show-profile", "history-of-updates", "membership-renewals", "2015-rome-conference", "membership-order", "airpets-america", "airline_directory", "members-directory", "country-profiles-volunteer", "kul-attendees", "thank-you-conference"];
+        
+        $(".top-bar-section ul li a").on("click",function(e){
+            var slug = $(this)[0].id;
+            var slug = slug.replace('_menu','')
+            var temp1 = $.inArray( slug, authorized_pages_for_airline_access);
+            var temp2 = $.inArray(slug, restricted_pages);
+        if(membership_category_id == 12 && temp1<0 && temp2 >= 0){
+            e.preventDefault();
+            alert("Sorry, you do not have access to this page.");
+        }
+        });
+        
+        if ($(window).width() > 768) {
+            $(".chosen-select").chosen({
+                disable_search: false,touch:true
+            });
+        }else{
+            $('.chosen-select').select2();
+        }
+        
+             // Chosen touch support.
+            if ($('.chosen-container').length > 0) {
+              $('.chosen-container').on('touchstart', function(e){
+                e.stopPropagation(); e.preventDefault();
+                // Trigger the mousedown event.
+                $(this).trigger('mousedown');
+              });
+            }
+             // $("#country_id_chosen a span").html('Loading...');
+             // $("#country_id").prop("disabled", true);
+            $(".uniform").uniform();  
+            $(".uniform").uniform();
+
+            /*--- GET PAGE HEADER ---*/
+                var ipata_module = $('.top-bar-section ul li a.active').html();
+                if (ipata_module) {
+                    $('.middle-section').append('<h1>'+ipata_module.trim()+'</h1>');
+                }
+            /*--- GET PAGE HEADER ---*/
+
+
+            $('body').on('click', '.active-head', function (){
+                $btn = $(this);
+                $btn.parent().toggleClass('active', $btn.next(".slide-box").is(':hidden'));
+                $(this).parent().children(".slide-box").slideToggle(function(){
+                    if($btn.parent().children(".slide-box").is(":visible")){
+                        $btn.find(".btn-view").text("close").addClass("btn-close");
+                    }
+                    else{
+                        $btn.find(".btn-view").text("view").removeClass("btn-close");;
+                    }
+                    /*if($btn.hasClass('odd'))
+                        $btn.removeClass('odd').addClass('active-odd');
+                    else if($btn.hasClass('active-odd'))
+                        $btn.removeClass('active-odd').addClass('odd');
+
+                    if($btn.hasClass('even'))
+                        $btn.removeClass('even').addClass('active-even');
+                    else if($btn.hasClass('active-even'))
+                        $btn.removeClass('active-even').addClass('even');*/
+                });
+            });
+
+            $(".banner-outer .topic h2").on("click",function(){
+                $(".banner-outer .topic h2").toggleClass("close");
+                $(".banner-outer .topic .breadcrumbs").slideToggle();
+            });
+            $("#alphabet-trigger").click(function(){
+                if($(".advance-opt-sec").is(":visible"))
+                     $(".advance-opt-sec").slideUp('fast',function(){
+                        $(".alphabet-sec").slideDown('fast');
+                     });
+                else
+                    $(".alphabet-sec").slideDown('fast');
+            });
+            $("#search-box-trigger").click(function(){
+                $(this).blur();
+                if($(".search-box-show").is(":visible")){
+                        $(".search-box-show").slideUp('fast');
+                }
+                else{
+                    $(".search-box-show").slideDown('fast');
+                    $('#country_id').val('').trigger('chosen:updated');
+                    $('.search-choice-close').click();
+                    $('#state_id').val('').trigger('chosen:updated');
+                    $('#airport_id').val('').trigger('chosen:updated');
+                    $('#airport_all').val('').trigger('chosen:updated');
+                    $('#species_id').val('').trigger('chosen:updated');
+                    $('#service_id').val('').trigger('chosen:updated');
+                    $('#business_category_id').val('').trigger('chosen:updated');
+                    $('#company_name').val('');
+                    $('#search_type').val('');
+                    $('#contact_person').val('');
+                    $('#airport_code').val('');
+                    $('input[type="checkbox"]').prop('checked', false).uniform();
+                    $('input[type="radio"]').attr('checked', false);
+                    $('#no-results').hide();
+                }
+                        $(this).hide();
+            });
+            $("#advance-opt-trigger").click(function(){
+                if($(".alphabet-sec").is(":visible"))
+                     $(".alphabet-sec").slideUp('fast',function(){
+                        $(".advance-opt-sec").slideDown('fast');
+                     });
+                else
+                    $(".advance-opt-sec").slideDown('fast');
+
+                if($(".limit-shorting-sec").is(":visible"))
+                     $(".limit-shorting-sec").slideUp('fast');
+                else
+                    $(".limit-shorting-sec").slideDown('fast');
+            });
+            $(document).on('click', 'button#search-reset', function(e) {
+                $('#country_id').val('').trigger('chosen:updated');
+                $('#state_id').val('').trigger('chosen:updated');
+                $('#airport_id').val('').trigger('chosen:updated');
+                $('#airport_all').val('').trigger('chosen:updated');
+                $('#species_id').val('').trigger('chosen:updated');
+                $('#service_id').val('').trigger('chosen:updated');
+                $('#business_category_id').val('').trigger('chosen:updated');
+
+                $('#country_id').val([]).trigger('change');
+                $('#state_id').val([]).trigger('change');
+                $('#airport_id').val([]).trigger('change');
+                $('#airport_all').val([]).trigger('change');
+                $('#species_id').val([]).trigger('change');
+                $('#service_id').val([]).trigger('change');
+                $('#business_category_id').val([]).trigger('change');
+                
+            });
+//setTimeout(function(){
+            if($("#region_id").length){
+                $.ajax({
+                        beforeSend: function(xhr){xhr.setRequestHeader('X-API-TOKEN', $app_token);},
+                        url: $base_url + "regions",
+                        dataType: "JSON",
+                        data: "sort_by=title&sort_order=asc&limit=all",
+                        success: function(data){
+                            $("#region_id").html("");
+                            $.each(data.response_data, function(i, item) {
+                                $("#region_id").append(
+                                    $('<option></option>').val(data.response_data[i].id).html(data.response_data[i].region_name)
+                                );
+                            })
+                            $('#region_id').trigger("chosen:updated");
+                        },
+                        error:function (xhr, ajaxOptions, thrownError){
+                            $("#region_id").append($('<option></option>').val('').html("Select a Region"));
+                        }
+                });
+            }
+            if($("#country_id").length){
+                $.ajax({
+                        beforeSend: function(xhr){xhr.setRequestHeader('X-API-TOKEN', $app_token);
+                        
+                        },
+                        url: $base_url + "countries",
+                        dataType: "JSON",
+                        data: "sort_by=title&sort_order=asc&limit=all",
+                        success: function(data){
+                            // $("#country_id").prop("disabled", false);
+                            $("#country_id").html("");
+                            $("#country_id").append(
+                                $('<option></option>').val("").html("Select a Country")
+                            );
+                            $.each(data.response_data, function(i, item) {
+                                $("#country_id").append(
+                                    $('<option></option>').val(data.response_data[i].id).html(data.response_data[i].title)
+                                );
+                            })
+                            if($("#transporter_form").length || $('#search-petshipper').length){
+                                $("#country_id option").filter(function() { return $(this).text() === "Australia"; }).insertBefore($('#country_id option:eq(1)'));
+                                $("#country_id option").filter(function() { return $(this).text() === "Canada"; }).insertBefore($('#country_id option:eq(2)'));
+                                $("#country_id option").filter(function() { return $(this).text() === "United States"; }).insertBefore($('#country_id option:eq(3)'));
+                            }
+                            
+                            // if($("#searchable-directory").length){
+                            //  $("#country_id option").filter(function() { return $(this).text() === "United States"; }).insertBefore($('#country_id option:eq(1)'));
+                            //  $("#country_id option").filter(function() { return "------" }).insertBefore($('#country_id option:eq(2)'));
+                            // }
+                                
+                            $('#country_id').trigger("chosen:updated");
+                        },
+                        error:function (xhr, ajaxOptions, thrownError){
+                            $("#country_id").append($('<option></option>').val('').html("Select a Country"));
+                        }
+                });
+            }
+//}, 3000);
+            if($("#species_id").length){
+                $.ajax({
+                        beforeSend: function(xhr){xhr.setRequestHeader('X-API-TOKEN', $app_token);},
+                        url: $base_url + "species",
+                        dataType: "JSON",
+                        data: "sort_by=name&sort_order=asc&limit=all",
+                        success: function(data){
+                            $.each(data.response_data, function(i, item) {
+                                $("#species_id").append(
+                                    $('<option></option>').val(data.response_data[i].id).html(data.response_data[i].name)
+                                );
+                            })
+                            $('#species_id').trigger("chosen:updated");
+                        },
+                        error:function (xhr, ajaxOptions, thrownError){
+                            $("#species_id").append($('<option></option>').val('').html("Select a Species"));
+                        }
+                });
+            }
+
+            if($("#service_id").length){
+                $.ajax({
+                        beforeSend: function(xhr){xhr.setRequestHeader('X-API-TOKEN', $app_token);},
+                        url: $base_url + "services",
+                        dataType: "JSON",
+                        data: "sort_by=name&sort_order=asc&limit=all",
+                        success: function(data){
+                            $.each(data.response_data, function(i, item) {
+                                $("#service_id").append(
+                                    $('<option></option>').val(data.response_data[i].id).html(data.response_data[i].name)
+                                );
+                            })
+                            $('#service_id').trigger("chosen:updated");
+                        },
+                        error:function (xhr, ajaxOptions, thrownError){
+                            $("#service_id").append($('<option></option>').val('').html("Select a Service"));
+                        }
+                });
+            }
+
+            
+            if($("#airport_all").length){
+
+                $.ajax({
+                    beforeSend: function(xhr){xhr.setRequestHeader('X-API-TOKEN', $app_token);},
+                    url: $base_url + "airports",
+                    dataType: "JSON",
+                    data: "sort_by=title&sort_order=asc&limit=all",
+                    success: function(data){
+                        $("#airport_all").append($('<option></option>').val('').html("Select an Airport"));
+                        $.each(data.response_data, function(i, item) {
+                            $("#airport_all").append(
+                                $('<option></option>').val(data.response_data[i].title).html(data.response_data[i].title + " - " +data.response_data[i].description)
+                            );
+                        })
+                        $('#airport_all').trigger("chosen:updated");
+                    },
+                    error:function (xhr, ajaxOptions, thrownError){
+                        $("#airport_all").append($('<option></option>').val('').html("Select an Airport"));
+                    },
+                    complete:function(xhr,data){
+                        $('#airport_all').trigger("chosen:updated");
+                    }
+                });
+            }
+            if($("#business_category_id").length){
+                $.ajax({
+                        beforeSend: function(xhr){xhr.setRequestHeader('X-API-TOKEN', $app_token);},
+                        url: $base_url + "business-categories",
+                        dataType: "JSON",
+                        data: "sort_by=display_order&limit=all",
+                        success: function(data){
+                            $.each(data.response_data.data, function(i, item) {
+                                $("#business_category_id").append(
+                                    $('<option></option>').val(data.response_data.data[i].id).html(data.response_data.data[i].name)
+                                );
+                            })
+                            $('#business_category_id').trigger("chosen:updated");
+                        },
+                        error:function (xhr, ajaxOptions, thrownError){
+                            $("#business_category_id").append($('<option></option>').val('').html("Select a Category"));
+                        }
+                });
+            }
+
+            $('#country_id').change(function(e) {
+
+                $("#state_id option").remove();
+                $("#airport_id option").remove();
+
+                $country_id = $("#country_id option:selected").text();
+                
+                var allowed_states = ['Canada','United States','United Kingdom','Australia','Brazil'];
+                
+                if($.inArray($country_id,allowed_states) !== -1){
+                    $.ajax({
+                        beforeSend: function(xhr){xhr.setRequestHeader('X-API-TOKEN', $app_token);},
+                        url: $base_url + "states",
+                        dataType: "JSON",
+                        data: "sort_by=title&sort_order=asc&limit=all&country="+$country_id,
+                        success: function(data){
+                            $("#state_id").append($('<option></option>').val('').html("Select a State"));
+                            $.each(data.response_data, function(i, item) {
+                                $("#state_id").append(
+                                    $('<option></option>').val(data.response_data[i].id).html(data.response_data[i].title)
+                                );
+                            })
+                            $('#state_id').trigger("chosen:updated");
+                        },
+                        error:function (xhr, ajaxOptions, thrownError){
+                            $("#state_id").append($('<option></option>').val('').html("Select a State"));
+                        },
+                        complete:function(xhr,data){
+                            $("#state_id").prop('disabled', false);
+                            $('#state_id').trigger("chosen:updated");
+                        }
+                    });
+                }else{
+                    $("#state_id").prop('disabled', true);
+                    $('#state_id').trigger("chosen:updated");
+                }
+                
+                $.ajax({
+                    beforeSend: function(xhr){xhr.setRequestHeader('X-API-TOKEN', $app_token);},
+                    url: $base_url + "airports",
+                    dataType: "JSON",
+                    data: "sort_by=title&sort_order=asc&limit=all&country="+$country_id,
+                    success: function(data){
+                        $("#airport_id").append($('<option></option>').val('').html("Select an Airport"));
+                        $.each(data.response_data, function(i, item) {
+                            $("#airport_id").append(
+                                $('<option></option>').val(data.response_data[i].title).html(data.response_data[i].title + " - " +data.response_data[i].description)
+                            );
+                        })
+                        $('#airport_id').trigger("chosen:updated");
+                    },
+                    error:function (xhr, ajaxOptions, thrownError){
+                        $("#airport_id").append($('<option></option>').val('').html("Select an Airport"));
+                    },
+                    complete:function(xhr,data){
+                        $('#airport_id').trigger("chosen:updated");
+                    }
+                });
+
+                $("#loader").hide();
+
+            });
+
+            $('#state_id').change(function(e) {
+
+                $("#airport_id option").remove();
+
+                $country_id = $("#country_id option:selected").text();
+                $state_id = $("#state_id option:selected").text();
+
+                $.ajax({
+                    beforeSend: function(xhr){xhr.setRequestHeader('X-API-TOKEN', $app_token);},
+                    url: $base_url + "airports",
+                    dataType: "JSON",
+                    data: "sort_by=title&sort_order=asc&limit=all&country="+$country_id+"&state="+$state_id,
+                    success: function(data){
+                        $("#airport_id").append($('<option></option>').val('').html("Select an Airport"));
+                        $.each(data.response_data, function(i, item) {
+                            $("#airport_id").append(
+                                $('<option></option>').val(data.response_data[i].title).html(data.response_data[i].title + " - " +data.response_data[i].description)
+                            );
+                        })
+                        $('#airport_id').trigger("chosen:updated");
+                    },
+                    error:function (xhr, ajaxOptions, thrownError){
+                        $("#airport_id").append($('<option></option>').val('').html("Select an Airport"));
+                    },
+                    complete:function(xhr,data){
+                        $('#airport_id').trigger("chosen:updated");
+                    }
+                });
+
+
+            });
+
+            $("#load-more").click(function(){
+                $( this ).hide();
+                $( "#page" ).val(parseFloat($( "#page" ).val()) + parseFloat($list_page_count));
+                $( "#search-petshipper" ).trigger( "submit" );
+                $( "#searchable-directory" ).trigger( "submit" );
+            });
+
+
+            $("#search-by-airport").click(function(){
+
+            })
+            
+            $( "#print_since_date,#modified_since_date" ).datepicker();
+            
+                
+            
+        });
+
+
+
+    </script>
+    <script type="text/javascript">
+        $('#search-input').focus(function() {
+            $(this).attr('placeholder', 'Press enter to search.')
+        }).blur(function() {
+            $(this).attr('placeholder', 'Search')
+        });
+    </script>
+    <script type="text/javascript">
+    // $(function(){
+    //   SyntaxHighlighter.all();
+    // });
+    $('document').ready(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationLoop: false,
+        itemWidth: 530,
+        itemMargin: 5,
+        // pausePlay: true,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+
+    // This function is used to check whether variable is set or not.
+    function isset(data) {
+        if(data != "" && typeof data != "undefined" && data != undefined && data != null) {
+            return true;
+        } else{
+            return false;
+        }
+    }
+    /* This function is used to decode html entities */
+    var decodeEntities = (function() {
+      // this prevents any overhead from creating the object each time
+      var element = document.createElement('div');
+
+      function decodeHTMLEntities (str) {
+        if(str && typeof str === 'string') {
+          // strip script/html tags
+          str = str.replace(/<script[^>]*>([\S\s]*?)<\/script>/gmi, '');
+          str = str.replace(/<\/?\w(?:[^"'>]|"[^"]*"|'[^']*')*>/gmi, '');
+          element.innerHTML = str;
+          str = element.textContent;
+          element.textContent = '';
+          // str = $('<textarea />').html(str).text();
+        }
+
+        return str;
+      }
+
+  return decodeHTMLEntities;
+})();
+  </script>
+
+
+
+<script type="text/javascript">
+    window.doorbellOptions = {
+        appKey: 'Lz1p5n1zAAmOxSxnpqoBe1xukczCoAphSo1M8PvQ4zlODpLTZOiOsC8aGeQk0St1'
+    };
+    (function(d, t) {
+        var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/3144?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g);
+    }(document, 'script'));
+</script>
+
+
+<!-- Start Cookie Assisstant (https://cookieassistant.com) -->
+<script>
+(function(r,o,c,k,e,t){
+  e=o.createElement(c);t=o.getElementsByTagName(c)[0];
+  e.async=1;e.src=k;t.parentNode.insertBefore(e,t)
+})(window,document,"script","https://pro.cookieassistant.com/widget.js?token=nET_RdCt_2JfjfL_6tRybQ");
+</script>
+<!-- End Cookie Assistant -->
+
+
+
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google Translate"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Original text</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Contribute a better translation</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><div id="cookie-assistant"><div class="cookie-assistant-notification cookie-assistant--bar cookie-assistant-bottom">
+    <div class="cookie-assistant-wrapper">
+      <span class="cookie-assistant-close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h24v24H0z"></path>
+            <path fill="#231815" fill-rule="nonzero" d="M20.4 4.6l-1-1L12 11 4.6 3.6l-1 1L11 12l-7.4 7.4 1 1L12 13l7.4 7.4 1-1L13 12z"></path>
+          </g>
+        </svg>
+      </span>
+      <div>
+        <div class="cookie-assistant-headline">This site uses cookies</div>
+      </div>
+      <div class="cookie-assistant-details">Our site and its third-party tools use cookies to gather statistics and offer you personalized content and experience. <a href="https://www.ipata.org/privacy-policy" target="_blank" class="cookie-assistant-policy">Cookie Policy</a></div>
+      <div class="cookie-assistant-actions">
+        <button class="cookie-assistant-button cookie-assistant-decline">Decline</button>
+        <button class="cookie-assistant-button cookie-assistant-accept">OK</button>
+      </div>
+    </div>
+  </div></div><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div><iframe frameborder="0" class="goog-te-menu-frame skiptranslate" title="Language Translate Widget" style="visibility: visible; box-sizing: content-box; width: 1054px; height: 263px; display: none;"></iframe></body></html>
